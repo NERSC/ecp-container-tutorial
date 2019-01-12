@@ -2,7 +2,7 @@
 
 Container computing is revolutionizing the way applications are developed and delivered. It offers opportunities that never existed before for significantly improving efficiency of scientific workflows and easily moving these workflows from the laptop to the supercomputer. Tools like Docker and Shifter enable a new paradigm for scientific and technical computing. However, to fully unlock its potential, users and administrators need to understand how to utilize these new approaches. This tutorial will introduce attendees to the basics of creating container images, explain best practices, and cover more advanced topics such as creating images to be run on HPC platforms using Shifter. The tutorial will also explain how research scientists can utilize container-based computing to accelerate their research and how these tools can boost the impact of their research by enabling better reproducibility and sharing of their scientific process without compromising security.  
 
-The content for the handouts and slides will be posted and updated at [https://github.com/nersc/Shifter-Tutorial](https://github.com/nersc/Shifter-Tutorial). Previous versions of this tutorial have been stored as git tags.
+The content for the handouts and slides will be posted and updated at [https://github.com/nersc/ecp-container-tutorial](https://github.com/nersc/ecp-container-tutorial). Previous versions of this tutorial have been stored as git tags.
 
 ## Prerequisites
 
@@ -23,7 +23,7 @@ Feel free to join the [Shifter group](https://groups.google.com/forum/#!forum/sh
 ## Agenda
 
 - 13:30: [Welcome and Intro to Containers](00-intro.md)
-    - [Intro to Containers](https://github.com/NERSC/Shifter-Tutorial/raw/master/presentations/Intro_to_Containers.pdf)
+    - Intro to Containers
     - [First hands-on](01-hands-on.md)
       - [Pulling and running an existing image](01-hands-on.md#pulling-and-running-an-existing-image)
       - [Making changes and committing them](01-hands-on.md#making-changes-and-committing-them)
@@ -43,6 +43,6 @@ Feel free to join the [Shifter group](https://groups.google.com/forum/#!forum/sh
     - [Submitting a Shifter batch job](03-hands-on.md#submitting-a-shifter-batch-job)
     - [Running a parallel Python MPI job](03-hands-on.md#running-a-parallel-python-mpi-job)
 - 16:30: Advanced Shifter, Optimizations, and Uses Cases
-    - [Advanced Shifter and Optimizations](https://github.com/NERSC/Shifter-Tutorial/raw/master/presentations/Shifter-Advanced-Optimizations.pdf)
-    - [Science Use Cases](https://github.com/NERSC/Shifter-Tutorial/raw/master/presentations/SC_use_slides.pdf)
+    - Advanced Shifter and Optimizations
+    - Science Use Cases
 - 17:00: [Wrap-Up](06-wrap-up.md)

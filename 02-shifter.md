@@ -2,4 +2,4 @@
 
 A brief presentation on how Shifter works and how images should be prepared.
 
-[Slides](https://github.com/NERSC/Shifter-Tutorial/raw/master/presentations/Shifter-Overview.pdf)
+Slides can be found in the Google Docs folder.
