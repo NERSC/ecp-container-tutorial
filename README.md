@@ -25,28 +25,20 @@ Please add comments to the Google Doc about this tutorial at the end of the sess
 
 - 14:00: [Welcome and Intro to Containers](00-intro.md)
     - Intro to Containers
-- 14:30
-    - [First hands-on](01-hands-on.md)
-      - [Pulling and running an existing image](01-hands-on.md#pulling-and-running-an-existing-image)
-      - [Making changes and committing them](01-hands-on.md#making-changes-and-committing-them)
-      - [Creating and building a Dockerfile](01-hands-on.md#creating-and-building-a-dockerfile)
-      - [Pushing a Dockerfile to dockerhub](01-hands-on.md#pushing-a-dockerfile-to-dockerhub)
+- 14:30 - [First hands-on](01-hands-on.md)
 - 15:30: Break
     - Distribute NERSC logins. **Please obtain a NERSC login from tutorial staff during the break**
 
 - 15:45: Container runtimes and HPC
     - Overview of HPC runtimes (Shifter, Singularity and Charliecloud
     - [Shifter](02-shifter.md)
-- 16:00: [Second hands-on - HPC Runtimess](03-hands-on.md)
-    - [Logging in to NERSC](03-hands-on.md#logging-in-to-nersc)
-    - [Pulling an image](03-hands-on.md#pulling-an-image)
-    - [Running an image interactively](03-hands-on.md#running-an-image-interactively)
-    - [Submitting a Shifter batch job](03-hands-on.md#submitting-a-shifter-batch-job)
-    - [Running a parallel Python MPI job](03-hands-on.md#running-a-parallel-python-mpi-job)
-    - Singularity Examples
+- 16:00: Second hands-on - HPC Runtimes and SDK
+    - [Shifter at NERSC](03-hands-on.md)
+    - Charliecloud - Tim
+    - Singularity Examples - Sameer
     - ECP SDK Demo - Sameer
-- 16:45: Optimizations, Advanced Use Cases and User Success Stories
+- 17:00: Optimizations, Advanced Use Cases and User Success Stories
     - [Optimizing Images](04-optimizing.md)
-    - Considerations for running on GPUs and non-x86 Architectures
+    - Considerations for running on GPUs and non-x86 Architectures - Adam Carlyle
     - [Science Use Cases](05-use-cases.md)
 - 17:30: [Wrap-Up](06-wrap-up.md)
