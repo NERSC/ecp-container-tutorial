@@ -2,7 +2,7 @@
 
 ## Pulling and running an existing image
 
-Pull a public image such as ubuntu or centos using the docker pull command.  If a tag is not specified, docker will default to "latest".
+Pull a public image such as Ubuntu or Centos using the docker pull command.  If a tag is not specified, docker will default to "latest".
 
 ```bash
 $ docker pull ubuntu:14.04
@@ -18,7 +18,7 @@ $ lsb_release -a
 
 ## Creating and building a Dockerfile
 
-While manually modifying and commiting changes is one way to build images, using a Dockerfile provides a way to build images so that others can understand how the image was constructed and make modifications.
+While there are different ways to build Docker images , the recommended approach is to use a Dockerfile since it provides a way to build images so that others can understand how the image was constructed and make modifications to the recipe.
 
 A Dockerfile has many options.  We will focus on a few basic ones (FROM, MAINTAINER, ADD, and RUN)
 
@@ -98,7 +98,7 @@ int main(int argc, char** argv) {
     return 0;
 }
 ```
-Hints: 
+Hints:
 * You can start with the image "nersc/ubuntu-mpi:14.04". It already has MPI installed.
 * You compile with "mpicc helloworld.c -o /app/hello"
 
@@ -146,4 +146,3 @@ hello from 6 of 10 on 982d980864e5
 hello from 1 of 10 on 982d980864e5
 
 </p></details>
-
