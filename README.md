@@ -24,7 +24,7 @@ Please add comments to the Google Doc about this tutorial at the end of the sess
 ## Agenda
 
 - 14:00: [Welcome and Intro to Containers](00-intro.md)
-- 14:30 - [First hands-on](01-hands-on.md)
+- 14:30: [First hands-on](01-hands-on.md)
 - 15:30: Break
     - Distribute NERSC logins. **Please obtain a NERSC login from tutorial staff during the break**
 
