@@ -1,8 +1,8 @@
 # Container Computing for HPC and Scientific Workflows - ECP Tutorial
 
-Container computing is revolutionizing the way applications are developed and delivered. It offers opportunities that never existed before for significantly improving efficiency of scientific workflows and easily moving these workflows from the laptop to the supercomputer. Tools like Docker and Shifter enable a new paradigm for scientific and technical computing. However, to fully unlock its potential, users and administrators need to understand how to utilize these new approaches. This tutorial will introduce attendees to the basics of creating container images, explain best practices, and cover more advanced topics such as creating images to be run on HPC platforms using Shifter. The tutorial will also explain how research scientists can utilize container-based computing to accelerate their research and how these tools can boost the impact of their research by enabling better reproducibility and sharing of their scientific process without compromising security.  
+Container computing is revolutionizing the way applications are developed and delivered. It offers opportunities that never existed before for significantly improving efficiency of scientific workflows and easily moving these workflows from the laptop to the supercomputer. Tools like Docker, Shifter, Singularity and Charliecloud enable a new paradigm for scientific and technical computing. However, to fully unlock its potential, users and administrators need to understand how to utilize these new approaches. This tutorial will introduce attendees to the basics of creating container images, explain best practices, and cover more advanced topics such as creating images to be run on HPC platforms using three HPC Container runtimes. The tutorial will also explain how research scientists can utilize container-based computing to accelerate their research and how these tools can boost the impact of their research by enabling better reproducibility and sharing of their scientific process without compromising security.  
 
-The content for the handouts and slides will be posted and updated at [https://github.com/nersc/ecp-container-tutorial](https://github.com/nersc/ecp-container-tutorial). Previous versions of this tutorial have been stored as git tags.
+The content for the handouts will be posted and updated at [https://github.com/nersc/ecp-container-tutorial](https://github.com/nersc/ecp-container-tutorial).
 
 ## Prerequisites
 
@@ -10,39 +10,43 @@ This is hands-on tutorial. Participants should bring a laptop and pre-install Do
 
 For more detailed instructions, see [Setup](setup.md).
 
-## Communication
-Please raise your hand if you need assistance. You can also ask questions on this [Google Doc](https://docs.google.com/document/d/18N_yE7D7hAvrbpuhfhnjc1M-Eok6nE9d4IxrHeuqMgo/edit?usp=sharing).
+## Slides
 
-## Shifter Github Repository
-Shifter is available using a modified BSD license. The Shifter code stack is available in the [NERSC github repository](https://github.com/NERSC/shifter).
+Slides can be found in the following [Google Drive Folder](https://drive.google.com/open?id=17ibGRs7HAZ8AOnLQUo1CTNFgShB-6Nph).
+
+
+## Communication
+Please raise your hand if you need assistance. You can also ask questions on this [Google Doc](https://docs.google.com/document/d/1thz5sp7upnhy5PKi6SpS-C9NuGRHoY5lz0NSJy7_mJM/edit?usp=sharing).
 
 ## Feedback
-Please fill out the SC survey about this tutorial at the end of the session.
-Feel free to join the [Shifter group](https://groups.google.com/forum/#!forum/shifter-hpc) or contact Shane or Rollin if you have any questions about Shifter in the future.
+Please add comments to the Google Doc about this tutorial at the end of the session.
 
 ## Agenda
 
-- 13:30: [Welcome and Intro to Containers](00-intro.md)
+- 14:00: [Welcome and Intro to Containers](00-intro.md)
     - Intro to Containers
+- 14:30
     - [First hands-on](01-hands-on.md)
       - [Pulling and running an existing image](01-hands-on.md#pulling-and-running-an-existing-image)
       - [Making changes and committing them](01-hands-on.md#making-changes-and-committing-them)
       - [Creating and building a Dockerfile](01-hands-on.md#creating-and-building-a-dockerfile)
       - [Pushing a Dockerfile to dockerhub](01-hands-on.md#pushing-a-dockerfile-to-dockerhub)
-- 14:30: [Intro to Shifter](02-shifter.md)
-    - Overview of Shifter
-    - How is it different from Docker
-    - Quick guide to Shifter Installation
-- 15:00: Break
+- 15:30: Break
     - Distribute NERSC logins. **Please obtain a NERSC login from tutorial staff during the break**
-- 15:30: Questions from previous sections
-- 15:40: [Second hands-on - Shifter](03-hands-on.md)
+
+- 15:45: Container runtimes and HPC
+    - Overview of HPC runtimes (Shifter, Singularity and Charliecloud
+    - [Shifter](02-shifter.md)
+- 16:00: [Second hands-on - HPC Runtimess](03-hands-on.md)
     - [Logging in to NERSC](03-hands-on.md#logging-in-to-nersc)
     - [Pulling an image](03-hands-on.md#pulling-an-image)
     - [Running an image interactively](03-hands-on.md#running-an-image-interactively)
     - [Submitting a Shifter batch job](03-hands-on.md#submitting-a-shifter-batch-job)
     - [Running a parallel Python MPI job](03-hands-on.md#running-a-parallel-python-mpi-job)
-- 16:30: Advanced Shifter, Optimizations, and Uses Cases
-    - Advanced Shifter and Optimizations
-    - Science Use Cases
-- 17:00: [Wrap-Up](06-wrap-up.md)
+    - Singularity Examples
+    - ECP SDK Demo - Sameer
+- 16:45: Optimizations, Advanced Use Cases and User Success Stories
+    - [Optimizing Images](04-optimizing.md)
+    - Considerations for running on GPUs and non-x86 Architectures
+    - [Science Use Cases](05-use-cases.md)
+- 17:30: [Wrap-Up](06-wrap-up.md)
