@@ -24,14 +24,12 @@ Please add comments to the Google Doc about this tutorial at the end of the sess
 ## Agenda
 
 - 14:00: [Welcome and Intro to Containers](00-intro.md)
-    - Intro to Containers
 - 14:30 - [First hands-on](01-hands-on.md)
 - 15:30: Break
     - Distribute NERSC logins. **Please obtain a NERSC login from tutorial staff during the break**
 
 - 15:45: Container runtimes and HPC
-    - Overview of HPC runtimes (Shifter, Singularity and Charliecloud
-    - [Shifter](02-shifter.md)
+    - Overview of HPC runtimes (Shifter, Singularity and Charliecloud)
 - 16:00: Second hands-on - HPC Runtimes and SDK
     - [Shifter at NERSC](03-hands-on.md)
     - Charliecloud - Tim
