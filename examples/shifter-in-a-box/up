@@ -1,8 +1,0 @@
-docker tag scanon/shifterbox:17.11 scanon/shifterbox
-docker push scanon/shifterbox:17.11
-docker push scanon/shifterbox
-
-docker tag scanon/shifterbox:17.11 nersc/shifterbox:17.11
-docker push nersc/shifterbox:17.11
-docker push nersc/shifterbox
-
